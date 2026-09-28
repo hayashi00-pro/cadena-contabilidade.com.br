@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cadena Contabilidade</title>
+<meta name="description" content="Consultoria, planejamento tributário, consultoria jurídica e contabilidade descomplicada.">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#10234a;--navy-2:#0b1a38;--gold:#c9982f;--gold-2:#e0b455;--ink:#eef1f7;--mute:#9aa7c2;--line:rgba(201,152,47,.22);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;height:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--navy-2);color:var(--ink);font:300 17px/1.8 Manrope,system-ui,Arial,sans-serif;color-scheme:dark;overflow-x:hidden}
+h1,h2,h3{font-weight:200;margin:0;letter-spacing:.01em;line-height:1.15}
+#bg{position:fixed;inset:0;z-index:0;display:flex;align-items:center;justify-content:center;pointer-events:none;background:var(--navy-2)}
+#bg img{width:min(46vmin,380px);height:auto;opacity:.14;filter:blur(5px)}
+header,main,footer{position:relative;z-index:1}
+.wrap{max-width:880px;margin:0 auto;padding:0 28px}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:76px}
+.brand{font-weight:300;font-size:15px;letter-spacing:.12em;color:var(--ink);text-decoration:none}
+nav a{color:var(--mute);text-decoration:none;margin-left:28px;font-size:14px;letter-spacing:.04em}
+nav a:hover{color:var(--gold-2)}
+.hero{min-height:82vh;display:flex;align-items:center}
+.hero h1{font-size:clamp(40px,7vw,72px);max-width:16ch}
+.hero p{max-width:46ch;color:var(--mute);margin:28px 0 44px}
+.btn{display:inline-block;color:var(--ink);font:400 15px Manrope,sans-serif;letter-spacing:.04em;padding:16px 32px;border:1px solid var(--gold);border-radius:999px;text-decoration:none;transition:background .25s,color .25s}
+.btn:hover{background:var(--gold);color:var(--navy-2)}
+a:focus-visible{outline:2px solid var(--gold-2);outline-offset:4px}
+section{padding:96px 0}
+h2{font-size:clamp(28px,4vw,40px);margin-bottom:48px}
+.text p{color:var(--mute);max-width:60ch;margin:0 0 20px}
+.list{border-top:1px solid var(--line)}
+.item{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;padding:32px 0;border-bottom:1px solid var(--line)}
+.item h3{font-size:24px;font-weight:300}
+.item p{margin:0;color:var(--mute);font-size:16px}
+.cta{text-align:center}.cta h2{margin:0 auto 20px;max-width:18ch}.cta p{color:var(--mute);max-width:44ch;margin:0 auto 40px}
+footer{padding:40px 0 56px;color:var(--mute);font-size:13px;letter-spacing:.04em}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+#prog{position:fixed;top:0;left:0;height:2px;width:100%;background:var(--gold);transform:scaleX(0);transform-origin:0 50%;z-index:10}
+#bg img{will-change:transform;transition:transform .15s linear}
+.item{opacity:.3;transition:opacity .6s ease}
+.item h3{transition:color .6s ease}
+.item.in{opacity:1}.item.in h3{color:var(--gold-2)}
+@media(max-width:720px){nav{display:none}.item{grid-template-columns:1fr;gap:8px}section{padding:72px 0}}
+@media(prefers-reduced-motion:reduce){.item{opacity:1}#bg img{transform:none!important}*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div id="bg" aria-hidden="true"><img alt="" src="data:image/png;base64,COLE_AQUI_O_BASE64_DA_LOGO"></div>
+
+<header><div class="wrap"><a class="brand" href="#topo">CADENA CONTABILIDADE</a>
+<nav><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a></nav></div></header>
+
+<main id="topo">
+<div class="hero"><div class="wrap">
+<h1>Contabilidade clara, decisões seguras.</h1>
+<p>A Cadena Contabilidade reúne consultoria, planejamento tributário e suporte jurídico em um só lugar, para que você entenda os números do seu negócio, cumpra suas obrigações sem susto e pague apenas o imposto devido.</p>
+<a class="btn wa" href="#" target="_blank" rel="noopener">Agendar conversa com um especialista</a>
+</div></div>
+
+<section id="sobre"><div class="wrap">
+<h2>Sobre a Cadena</h2>
+<div class="text">
+<p>Acreditamos que contabilidade não precisa ser complicada. Nosso trabalho é transformar obrigações fiscais, prazos e legislação em informação simples, que ajude você a decidir melhor.</p>
+<p>Atendemos empresas e profissionais que buscam organização, segurança e economia dentro da lei. Cada cliente recebe uma análise individual, porque não existe planejamento único que sirva para todos.</p>
+<p>Ao integrar as áreas contábil, tributária e jurídica, evitamos retrabalho e reduzimos o risco de decisões tomadas com informação incompleta.</p>
+</div>
+</div></section>
+
+<section id="servicos"><div class="wrap">
+<h2>Serviços</h2>
+<div class="list">
+<div class="item"><h3>Consultoria</h3><p>Analisamos a situação financeira e a estrutura da sua empresa e indicamos, de forma objetiva, os caminhos para organizar a gestão, corrigir falhas e apoiar decisões importantes como abertura, reestruturação e crescimento.</p></div>
+<div class="item"><h3>Planejamento Tributário</h3><p>Estudamos o seu faturamento, atividade e regime de tributação para identificar as alternativas legais que reduzem a carga de impostos, sempre com segurança e respeito à legislação vigente.</p></div>
+<div class="item"><h3>Consultoria Jurídica</h3><p>Orientação em contratos, estrutura societária, regularização e questões fiscais, integrada à contabilidade para que as decisões da empresa sejam seguras do ponto de vista legal.</p></div>
+<div class="item"><h3>Contabilidade Descomplicada</h3><p>Escrituração, apuração de impostos, obrigações acessórias e rotinas trabalhistas em dia, com relatórios e explicações em linguagem simples, sem termos difíceis.</p></div>
+</div>
+</div></section>
+
+<section id="como-funciona"><div class="wrap">
+<h2>Como funciona</h2>
+<div class="list">
+<div class="item"><h3>1. Conversa inicial</h3><p>Você agenda uma conversa com um especialista e conta como funciona o seu negócio e o que precisa resolver.</p></div>
+<div class="item"><h3>2. Diagnóstico</h3><p>Avaliamos a estrutura, o regime tributário e as obrigações da empresa, apontando riscos e oportunidades de economia.</p></div>
+<div class="item"><h3>3. Plano de ação</h3><p>Apresentamos um plano claro, com as medidas contábeis, tributárias e jurídicas recomendadas e o que cada uma muda na prática.</p></div>
+<div class="item"><h3>4. Acompanhamento</h3><p>Executamos a rotina, acompanhamos os resultados e ajustamos o planejamento sempre que o seu negócio ou a legislação mudarem.</p></div>
+</div>
+</div></section>
+
+<section id="diferenciais"><div class="wrap">
+<h2>Por que escolher a Cadena</h2>
+<div class="list">
+<div class="item"><h3>Visão integrada</h3><p>Contabilidade, tributos e jurídico trabalham juntos, com informação compartilhada e sem retrabalho.</p></div>
+<div class="item"><h3>Linguagem simples</h3><p>Você entende cada decisão, cada número e cada obrigação, sem depender de termos técnicos.</p></div>
+<div class="item"><h3>Atendimento direto</h3><p>Fale com um especialista e receba respostas claras, sem burocracia e sem rodeios.</p></div>
+<div class="item"><h3>Foco na sua economia</h3><p>Buscamos reduzir a carga tributária de forma legal, segura e sustentável a longo prazo.</p></div>
+</div>
+</div></section>
+
+<section id="contato" class="cta"><div class="wrap">
+<h2>Vamos conversar?</h2>
+<p>Agende uma conversa com um especialista e entenda como organizar a contabilidade da sua empresa e pagar menos imposto dentro da lei. O primeiro passo é uma conversa, sem compromisso.</p>
+<a class="btn wa" href="#" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="ano"></span> Cadena Contabilidade</span><span>Curitiba, PR</span></div></footer>
+
+<div id="prog" aria-hidden="true"></div>
+
+<script>
+var url="https://api.whatsapp.com/send?phone=5541988533867&text="+encodeURIComponent("Olá! Gostaria de agendar uma conversa com um especialista da Cadena Contabilidade.");
+document.querySelectorAll(".wa").forEach(function(a){a.href=url});
+document.getElementById("ano").textContent=new Date().getFullYear();
+
+var prog=document.getElementById("prog"),logo=document.querySelector("#bg img"),tick=false;
+function upd(){
+  var max=document.documentElement.scrollHeight-innerHeight,p=max>0?scrollY/max:0;
+  prog.style.transform="scaleX("+p+")";
+  logo.style.transform="rotate("+(p*40)+"deg) scale("+(1+p*.35)+")";
+  tick=false;
+}
+addEventListener("scroll",function(){if(!tick){tick=true;requestAnimationFrame(upd)}},{passive:true});
+upd();
+var io=new IntersectionObserver(function(es){es.forEach(function(e){e.target.classList.toggle("in",e.isIntersecting)})},{rootMargin:"-30% 0px -30% 0px"});
+document.querySelectorAll(".item").forEach(function(i){io.observe(i)});
+</script>
+</body>
+</html>
